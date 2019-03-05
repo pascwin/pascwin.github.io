@@ -1,0 +1,69 @@
+body{
+	background-image: url(swimmer.jpg);
+	background-size: cover;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	color: black;
+	
+}
+
+h1{
+	color: #00352F;
+	text-align: center;
+	border: solid rgba(0, 53, 47, 0.2);
+	font-family: "Times New Roman";
+	transition: 1s;
+}
+
+h1:hover {
+	color: #00352F;
+	text-align: center;
+	border: solid rgba(0, 53, 47, 1);
+	font-family: "Times New Roman";
+	transform: scale(1.2);
+}
+
+h2 {
+	color: #00352F;
+	text-align: center;
+	font-family: "Times New Roman";
+	margin-top: 100px;
+}
+
+ul {
+	text-align: right;
+}
+
+footer{
+	color: #00352F;
+	text-align: center;
+	border: solid rgba(0, 53, 47, 0.1)
+}
+.Firstbutton{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+
+#Firstbutton{
+	color:#00352F;
+	border-color: #00352F;
+	display: flex;
+	justify-content: center;
+
+}
+
+#Firstbutton:hover {
+	color: white;
+	background-color: #00352F;
+	display: flex;
+	justify-content: center;
+}
+
+footer{
+	margin-top: 300px;
+}
